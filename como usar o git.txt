@@ -7,3 +7,36 @@
 "Untracked files:
   (use "git add <file>..." to include in what will be committed)
         arquivo de teste.txt"
+
+--- adicionar arquivos ao controle de versão
+	git add "nome do arquivo"
+
+--- para adicionar todos os arquivo que estão dentro da pasta
+	git add .
+
+--- criar a primeira versão do código no GitHub
+	git commit -m "Commit inicial"
+
+--- configurar a conexão com o GitHub
+	git config --global user.email "Achilles.guilardi@gmail.com"
+	git config --global user.name "Achilles Guilardi"
+
+--- enviando os arquivos para nuvem, aqui eu preciso do link de onde será mandando o arquivo, notar que ele está pedindo o "name" e a "url":
+	$ git push
+	fatal: No configured push destination.
+	Either specify the URL from the command-line or configure a remote repository using
+
+    		git remote add <name> <url>
+
+	and then push using the remote name
+
+    		git push <name>
+
+--- Definindo O REPOSITÓRIO para onde o código será enviado
+	git remote add origin https://github.com/AchillesGuilardi/pos_graduacao
+
+--- Faça conexão com o github
+	git push --set-upstream origin master
+
+
+
