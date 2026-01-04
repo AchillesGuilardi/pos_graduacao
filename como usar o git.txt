@@ -38,5 +38,17 @@
 --- Faça conexão com o github
 	git push --set-upstream origin master
 
+--- Preparando o arquivo para subir na nuvem
+	git add .
+
+--- Enviando as alterações
+	git commit -m "Descrição do que foi feito"
+	git push
 
 
+Adiconando mais texttosssssssssssssss
+
+--- verificar o histórico das alterações
+	git reflog
+
+Adiconando mais texttosssssssssssssss
