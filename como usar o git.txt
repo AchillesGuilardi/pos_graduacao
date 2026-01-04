@@ -42,15 +42,11 @@
 	git add .
 
 --- Enviando as alterações
-	git commit -m "Descrição do que foi feito"
-	git push
-
-
-Adiconando mais texttosssssssssssssss
+	git status (para saber quais arquivos sofreram alterações)
+	git add . (manda preparar o arquivo para subir)
+	git commit -m "Descrição do que foi feito" (para comentar a alteração)
+	git push (para subir)
 
 --- verificar o histórico das alterações
 	git reflog
 
-Adiconando mais texttosssssssssssssss
-
-Quinta alteração
