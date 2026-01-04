@@ -1,0 +1,9 @@
+--- Inicializar o git
+	git init
+
+--- saber quais arquivos não estão no controle de versão que estão na pasta
+	git status	
+
+"Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        arquivo de teste.txt"
