@@ -50,3 +50,49 @@
 --- verificar o histórico das alterações
 	git reflog
 
+*** Navegando entre versões novas e antiga do código
+No caso desse arquivo eu tenho todas essas atualizações:
+
+	Achilles Guilardi@DESKTOP-MJCK93P MINGW64 ~/Desktop/POS PUC/MODULOS/Projetos GIT (master)
+	$ git reflog
+	cac8054 (HEAD -> master, origin/master) HEAD@{0}: commit: Colocando o link da aula no arquivo txt
+	77039d0 HEAD@{1}: commit: Sexta alteracao
+	b112185 HEAD@{2}: commit: Quinta alteracao
+	2ace00f HEAD@{3}: commit: Quarta alteracao
+	a1d9f4e HEAD@{4}: commit: Coloquei mais instruções de como usar o github
+	a376806 HEAD@{5}: commit (initial): Commit Inicial
+
+Para voltar para qualquer versão (LOCALMENTE, NÃO É NO GITHUB) usar o comando abaixo. VC O ARQUIVO DEVE ESTAR FECHADO PARA A ALTERAÇÃO ACONTECER
+	git reset --hard (id)
+
+****************************** Navegando entre versões novas e antiga do código
+
+No caso desse arquivo eu tenho todas essas atualizações:
+
+	Achilles Guilardi@DESKTOP-MJCK93P MINGW64 ~/Desktop/POS PUC/MODULOS/Projetos GIT (master)
+	$ git reflog
+	cac8054 (HEAD -> master, origin/master) HEAD@{0}: commit: Colocando o link da aula no arquivo txt
+	77039d0 HEAD@{1}: commit: Sexta alteracao
+	b112185 HEAD@{2}: commit: Quinta alteracao
+	2ace00f HEAD@{3}: commit: Quarta alteracao
+	a1d9f4e HEAD@{4}: commit: Coloquei mais instruções de como usar o github
+	a376806 HEAD@{5}: commit (initial): Commit Inicial
+
+Para voltar para qualquer versão (LOCALMENTE, NÃO É NO GITHUB) usar o comando abaixo. VC O ARQUIVO DEVE ESTAR FECHADO PARA A ALTERAÇÃO ACONTECER
+	git reset --hard (id)
+
+
+*************** trabalhando entre Branchs **********************************
+
+---  criar uma nova branch
+	git branch (nome) obs: muito comum o nome staging, então:
+	git branch staging
+
+--- para saber qual é a branch sendo usada
+	git branch
+
+--- alternar entre branch
+	git checkout staging
+
+
+
