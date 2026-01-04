@@ -1,3 +1,5 @@
+Aula di youtube https://www.youtube.com/watch?v=kB5e-gTAl_s
+
 --- Inicializar o git
 	git init
 
@@ -50,3 +52,4 @@
 --- verificar o histórico das alterações
 	git reflog
 
+--- Navegando entre versões novas e antiga do código
